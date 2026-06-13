@@ -40,13 +40,13 @@ function App() {
             Tech support specialist with daily ServiceNow experience in a
             high-volume healthcare environment. Skilled at resolving
             hardware, software, and mobile device issues quickly while
-            maintaining a nearly perfect Net Promoter Score from the people I
+            maintaining a 90+ Net Promoter Score from the people I
             support. Background in web design gives me an extra edge for
             troubleshooting systems end to end.
           </p>
           <div className="highlights">
             <div className="highlight">
-              <span className="stat">~Perfect</span>
+              <span className="stat">90+</span>
               <span className="label">ServiceNow NPS</span>
             </div>
             <div className="highlight">
@@ -136,7 +136,7 @@ function App() {
                 Manages and resolves 60–85 weekly tickets using ServiceNow,
                 consistently reducing backlog from 30+ tickets to single
                 digits through effective triage and prioritization, while
-                maintaining a nearly perfect Net Promoter Score from end
+                maintaining a 90+ Net Promoter Score from end
                 users.
               </li>
               <li>
