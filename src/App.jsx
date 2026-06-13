@@ -1,10 +1,11 @@
 import './App.css'
+import FadeIn from './FadeIn'
 
 function App() {
   return (
     <>
       <section className="section hero">
-        <div className="container">
+        <FadeIn className="container">
           <div className="eyebrow">Tech Support Specialist</div>
           <h1>Patrick Senter</h1>
           <p className="role">
@@ -17,11 +18,11 @@ function App() {
             <span>415-572-6688</span>
             <a href="mailto:PatrickSenter@gmail.com">PatrickSenter@gmail.com</a>
           </div>
-        </div>
+        </FadeIn>
       </section>
 
       <section className="section section--alt summary">
-        <div className="container">
+        <FadeIn className="container">
           <h2>Summary</h2>
           <p>
             Tech support specialist with daily ServiceNow experience in a
@@ -45,11 +46,11 @@ function App() {
               <span className="label">Ticket backlog reduction</span>
             </div>
           </div>
-        </div>
+        </FadeIn>
       </section>
 
       <section className="section">
-        <div className="container">
+        <FadeIn className="container">
           <h2>Skills</h2>
           <div className="skill-groups">
             <div className="skill-group">
@@ -99,11 +100,11 @@ function App() {
               </ul>
             </div>
           </div>
-        </div>
+        </FadeIn>
       </section>
 
       <section className="section section--alt">
-        <div className="container">
+        <FadeIn className="container">
           <h2>Experience</h2>
 
           <div className="job">
@@ -177,11 +178,11 @@ function App() {
               </li>
             </ul>
           </div>
-        </div>
+        </FadeIn>
       </section>
 
       <section className="section">
-        <div className="container">
+        <FadeIn className="container">
           <h2>Education</h2>
           <div className="education-list">
             <div className="education-item">
@@ -193,7 +194,7 @@ function App() {
               <div className="school-detail">Business Management with a Minor in Information Systems</div>
             </div>
           </div>
-        </div>
+        </FadeIn>
       </section>
 
       <footer className="footer">&copy; {new Date().getFullYear()} Patrick Senter</footer>
