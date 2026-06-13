@@ -83,7 +83,7 @@
 
 /* Hero */
 .hero {
-  min-height: 90vh;
+  min-height: calc(100vh - 4.5rem);
   display: flex;
   align-items: center;
   padding-top: 6rem;
