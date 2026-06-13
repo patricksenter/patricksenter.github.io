@@ -4,7 +4,19 @@ import FadeIn from './FadeIn'
 function App() {
   return (
     <>
-      <section className="section hero">
+      <nav className="nav">
+        <div className="container nav-inner">
+          <a className="nav-logo" href="#top">PS</a>
+          <div className="nav-links">
+            <a href="#summary">Summary</a>
+            <a href="#skills">Skills</a>
+            <a href="#experience">Experience</a>
+            <a href="#education">Education</a>
+          </div>
+        </div>
+      </nav>
+
+      <section id="top" className="section hero">
         <FadeIn className="container">
           <div className="eyebrow">Tech Support Specialist</div>
           <h1>Patrick Senter</h1>
@@ -21,7 +33,7 @@ function App() {
         </FadeIn>
       </section>
 
-      <section className="section section--alt summary">
+      <section id="summary" className="section section--alt summary">
         <FadeIn className="container">
           <h2>Summary</h2>
           <p>
@@ -49,7 +61,7 @@ function App() {
         </FadeIn>
       </section>
 
-      <section className="section">
+      <section id="skills" className="section">
         <FadeIn className="container">
           <h2>Skills</h2>
           <div className="skill-groups">
@@ -103,7 +115,7 @@ function App() {
         </FadeIn>
       </section>
 
-      <section className="section section--alt">
+      <section id="experience" className="section section--alt">
         <FadeIn className="container">
           <h2>Experience</h2>
 
@@ -181,7 +193,7 @@ function App() {
         </FadeIn>
       </section>
 
-      <section className="section">
+      <section id="education" className="section">
         <FadeIn className="container">
           <h2>Education</h2>
           <div className="education-list">
