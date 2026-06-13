@@ -127,30 +127,30 @@ function App() {
             <div className="job-role">IT Support Professional</div>
             <ul>
               <li>
-                Deliver in-person IT support at Seattle Children's Hospital's
+                Delivers in-person IT support at Seattle Children's Hospital's
                 high-volume Tech Pod, resolving hardware and software issues
                 for research staff and healthcare providers across laptops,
                 mobile devices, and enterprise systems.
               </li>
               <li>
-                Manage and resolve 60–85 weekly tickets using ServiceNow,
+                Manages and resolves 60–85 weekly tickets using ServiceNow,
                 consistently reducing backlog from 30+ tickets to single
                 digits through effective triage and prioritization, while
                 maintaining a nearly perfect Net Promoter Score from end
                 users.
               </li>
               <li>
-                Troubleshoot and deploy iOS mobile devices alongside Windows
+                Troubleshoots and deploys iOS mobile devices alongside Windows
                 and macOS laptops as part of day-to-day support and lifecycle
                 management.
               </li>
               <li>
-                Support imaging, deployment, and lifecycle management of
+                Supports imaging, deployment, and lifecycle management of
                 Windows and macOS devices using Microsoft Intune, Jamf, SCCM,
                 and Active Directory.
               </li>
               <li>
-                Provide white-glove IT support to C-suite members, delivering
+                Provides white-glove IT support to C-suite members, delivering
                 high-priority issue resolution with discretion, speed, and
                 professionalism.
               </li>
