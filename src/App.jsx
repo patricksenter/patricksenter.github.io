@@ -120,7 +120,7 @@ function App() {
 
           <div className="job">
             <div className="job-header">
-              <h3>Seattle Children's Hospital &amp; Denali Integrated Services</h3>
+              <h3>Seattle Children's Hospital &amp; Denali Advanced Integration</h3>
               <span className="dates">2025 – Present</span>
             </div>
             <div className="job-role">IT Support Professional</div>
