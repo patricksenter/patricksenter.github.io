@@ -27,7 +27,6 @@ function App() {
           </p>
           <div className="contact">
             <span>Seattle, WA</span>
-            <span>415-572-6688</span>
             <a href="mailto:PatrickSenter@gmail.com">PatrickSenter@gmail.com</a>
           </div>
         </FadeIn>
