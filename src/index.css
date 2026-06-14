@@ -14,9 +14,13 @@ html {
 body {
   background: #0b0c0e;
   color: #e7e5e0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+  font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
   line-height: 1.7;
   font-size: 16px;
+}
+
+h1, h2, h3 {
+  font-family: "Bitter", Georgia, "Times New Roman", serif;
 }
 
 a {
