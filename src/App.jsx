@@ -22,8 +22,8 @@ function App() {
           <h1>Patrick Senter</h1>
           <p className="role">
             Resolving hardware, software, and mobile device issues for a
-            high-volume healthcare environment — with a near-perfect track
-            record for the people I support.
+            high-volume healthcare environment, while maintaining a
+            near-perfect track record for the people I support.
           </p>
           <div className="contact">
             <span>Seattle, WA</span>
