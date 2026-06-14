@@ -17,7 +17,7 @@ function App() {
       </nav>
 
       <section id="top" className="section hero">
-        <FadeIn className="container">
+        <div className="container hero-in">
           <div className="eyebrow">Tech Support Specialist</div>
           <h1>Patrick Senter</h1>
           <p className="role">
@@ -29,7 +29,7 @@ function App() {
             <span>Seattle, WA</span>
             <a href="mailto:PatrickSenter@gmail.com">PatrickSenter@gmail.com</a>
           </div>
-        </FadeIn>
+        </div>
       </section>
 
       <section id="summary" className="section section--alt summary">
