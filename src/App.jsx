@@ -18,7 +18,7 @@ function App() {
 
       <section id="top" className="section hero">
         <div className="container hero-in">
-          <div className="eyebrow">Tech Support Specialist</div>
+          <div className="eyebrow">IT Support Professional</div>
           <h1>Patrick Senter</h1>
           <p className="role">
             Resolving hardware, software, and mobile device issues for a
