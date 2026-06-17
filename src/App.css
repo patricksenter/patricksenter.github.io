@@ -60,14 +60,10 @@
 
 .nav-links a.nav-creative {
   color: var(--accent);
-  border: 1px solid var(--accent);
-  border-radius: 4px;
-  padding: 0.2rem 0.6rem;
 }
 
 .nav-links a.nav-creative:hover {
   color: var(--accent-hover);
-  border-color: var(--accent-hover);
 }
 
 @media (max-width: 640px) {
