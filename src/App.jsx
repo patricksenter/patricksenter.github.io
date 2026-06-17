@@ -12,6 +12,7 @@ function App() {
             <a href="#skills">Skills</a>
             <a href="#experience">Experience</a>
             <a href="#education">Education</a>
+            <a href="https://psenter.com/creative-portfolio" className="nav-creative" target="_blank" rel="noopener noreferrer">Creative</a>
           </div>
         </div>
       </nav>
