@@ -1,12 +1,17 @@
+import { useState } from 'react'
 import './App.css'
 import FadeIn from './FadeIn'
 
 function App() {
+  const [menuOpen, setMenuOpen] = useState(false)
+  const closeMenu = () => setMenuOpen(false)
+
   return (
     <>
       <nav className="nav">
         <div className="container nav-inner">
           <a className="nav-logo" href="#top">PS</a>
+
           <div className="nav-links">
             <a href="#summary">Summary</a>
             <a href="#skills">Skills</a>
@@ -14,8 +19,25 @@ function App() {
             <a href="#education">Education</a>
             <a href="https://psenter.com/creative-portfolio" className="nav-creative" target="_blank" rel="noopener noreferrer">Creative</a>
           </div>
+
+          <button
+            className={`nav-hamburger ${menuOpen ? 'open' : ''}`}
+            onClick={() => setMenuOpen(o => !o)}
+            aria-label="Toggle menu"
+          >
+            <span /><span /><span />
+          </button>
         </div>
       </nav>
+
+      {/* Mobile menu rendered outside nav to avoid backdrop-filter stacking context */}
+      <div className={`mobile-menu ${menuOpen ? 'mobile-menu--open' : ''}`}>
+        <a href="#summary" onClick={closeMenu}>Summary</a>
+        <a href="#skills" onClick={closeMenu}>Skills</a>
+        <a href="#experience" onClick={closeMenu}>Experience</a>
+        <a href="#education" onClick={closeMenu}>Education</a>
+        <a href="https://psenter.com/creative-portfolio" className="nav-creative" target="_blank" rel="noopener noreferrer" onClick={closeMenu}>Creative</a>
+      </div>
 
       <section id="top" className="section hero">
         <div className="container hero-in">
