@@ -72,7 +72,7 @@ function App() {
               <span className="label">ServiceNow NPS</span>
             </div>
             <div className="highlight">
-              <span className="stat">120–140</span>
+              <span className="stat">110–125</span>
               <span className="label">Tickets resolved weekly</span>
             </div>
             <div className="highlight">
