@@ -17,7 +17,6 @@ function App() {
             <a href="#skills">Skills</a>
             <a href="#experience">Experience</a>
             <a href="#education">Education</a>
-            <a href="https://psenter.com/creative-portfolio" className="nav-creative" target="_blank" rel="noopener noreferrer">Creative</a>
           </div>
 
           <button
@@ -36,7 +35,6 @@ function App() {
         <a href="#skills" onClick={closeMenu}>Skills</a>
         <a href="#experience" onClick={closeMenu}>Experience</a>
         <a href="#education" onClick={closeMenu}>Education</a>
-        <a href="https://psenter.com/creative-portfolio" className="nav-creative" target="_blank" rel="noopener noreferrer" onClick={closeMenu}>Creative</a>
       </div>
 
       <section id="top" className="section hero">
