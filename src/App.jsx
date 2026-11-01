@@ -72,7 +72,7 @@ function App() {
               <span className="label">ServiceNow NPS</span>
             </div>
             <div className="highlight">
-              <span className="stat">60–85</span>
+              <span className="stat">120–140</span>
               <span className="label">Tickets resolved weekly</span>
             </div>
             <div className="highlight">
@@ -112,6 +112,15 @@ function App() {
                 <li>Bomgar</li>
                 <li>Okta</li>
                 <li>Workday</li>
+                <li>Imprivata</li>
+              </ul>
+            </div>
+            <div className="skill-group">
+              <h3>Clinical Applications</h3>
+              <ul>
+                <li>Epic Hyperspace</li>
+                <li>Epic Haiku</li>
+                <li>Epic Canto</li>
               </ul>
             </div>
             <div className="skill-group">
@@ -155,16 +164,10 @@ function App() {
                 mobile devices, and enterprise systems.
               </li>
               <li>
-                Manages and resolves 60–85 weekly tickets using ServiceNow,
-                consistently reducing backlog from 30+ tickets to single
-                digits through effective triage and prioritization, while
-                maintaining a 90+ Net Promoter Score from end
-                users.
-              </li>
-              <li>
-                Troubleshoots and deploys iOS mobile devices alongside Windows
-                and macOS laptops as part of day-to-day support and lifecycle
-                management.
+                Manages and resolves 110–125 weekly tickets using ServiceNow,
+                consistently reducing backlog from 30+ tickets to single digits
+                through effective triage and prioritization and keeps SLA
+                numbers down to SCH IT standards.
               </li>
               <li>
                 Supports imaging, deployment, and lifecycle management of
@@ -172,8 +175,21 @@ function App() {
                 and Active Directory.
               </li>
               <li>
+                Enrolls healthcare providers in Imprivata for Electronically
+                Prescribed Controlled Substances.
+              </li>
+              <li>
+                Supports Seattle Children's organization-wide migration from
+                Webex to Microsoft Teams by providing in-person staff training,
+                educating users on new collaboration tools and facilitating a
+                smooth transition to updated meeting and communication workflows.
+              </li>
+              <li>
+                Serves as a member of the Mobility team supporting iOS devices.
+              </li>
+              <li>
                 Provides white-glove IT support to C-suite members, delivering
-                high-priority issue resolution with discretion, speed, and
+                high-priority issue resolution with discretion, speed and
                 professionalism.
               </li>
             </ul>
