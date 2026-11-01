@@ -155,7 +155,7 @@ function App() {
               <h3>Seattle Children's Hospital &amp; Denali Advanced Integration</h3>
               <span className="dates">2025 – Present</span>
             </div>
-            <div className="job-role">IT Support Professional</div>
+            <div className="job-role">Desktop Support Technician II</div>
             <ul>
               <li>
                 Delivers in-person IT support at Seattle Children's Hospital's
